@@ -5,7 +5,7 @@ pipeline {
 
     environment {
         // CHANGE mohamed123 to YOUR Docker Hub username !!!
-        IMAGE = 'mohamed123/monapp'
+        IMAGE = 'oksee/monapp'
         TAG   = "build-${env.BUILD_NUMBER}"
     }
 
